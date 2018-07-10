@@ -130,7 +130,7 @@ To estimate the number of maximum Ns (uncalled bases) and Hs (heterozigous sites
 100, 100                          ## [20] [max_Hs_consens]: Max Hs (heterozygotes) in consensus (R1, R2)*
 ``` 
 
-**4. Evaluate the distribution of the number of average number of H's and N's**
+**4. Evaluate the distribution of the number of average number of H's and N's/. Scripts found at https://github.com/edgardomortiz**
 ``` 
 cat sample_consens/*consens.gz* > merged_catcons.gz
 ```
@@ -157,7 +157,7 @@ To estimate the number of maximum SNPs and Indels per locus run s7 with the foll
 100, 100                          ## [23] [max_Indels_locus]: Max # of indels per locus (R1, R2)*
 ```
 
-**7. Evaluate the distribution of the distribution of the  number of SNPs and INDELS per locus**
+**7. Evaluate the distribution of the distribution of the  number of SNPs and INDELS per locus. Scripts found at https://github.com/edgardomortiz**
 ```
 SNPs_locus.py samples.loci
 SNPs_locus.R
